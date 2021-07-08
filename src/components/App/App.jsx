@@ -40,10 +40,10 @@ const App = () => {
     <div>
       <Header headTitle="Justpasteit" />
       <Switch>
-        <Route exact path="/">
+        <Route exact path="/home">
           <Typing handleInputChange={handleInputChange} onSubmit={onSubmit} />
         </Route>
-        <Route exact path="/:id">
+        <Route exact path="home/:id">
           <SharePage />
         </Route>
       </Switch>
