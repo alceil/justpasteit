@@ -1,0 +1,11 @@
+.button{
+    background-color: green;
+    margin: 4px 2px;
+    color: white;
+    padding: 10px;
+    border: none;
+font-weight: bold;
+    border-radius: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    box-shadow: 0 1px 7px rgb(128, 128, 128);
+}
