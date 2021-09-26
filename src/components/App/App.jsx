@@ -25,7 +25,7 @@ const App = () => {
       .post("https://justpasteitapi.herokuapp.com/add", { content: shareText })
       .then((response) => {
         let id = response.data["_id"];
-        history.push("/justpasteit/"+id);
+        history.push("/"+id);
  
         console.log(id);
       })
@@ -40,10 +40,10 @@ const App = () => {
     <div>
       <Header headTitle="Justpasteit" />
       <Switch>
-        <Route exact path="/justpasteit/">
+        <Route exact path="/">
           <Typing handleInputChange={handleInputChange} onSubmit={onSubmit} />
         </Route>
-        <Route exact path="/justpasteit/:id">
+        <Route exact path="/:id">
           <SharePage />
         </Route>
       </Switch>
