@@ -1,5 +1,5 @@
 
-<h2 align="center">JustPasteIt</h1>
+<h2 align="center">Justpasteit📋</h1>
 <h4 align="center">An open source Pastebin alternative to share text/code with your friends ✨️</h4>
 
 <p align="center">
