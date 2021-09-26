@@ -4,19 +4,19 @@
 
 <p align="center">
 <a href="https://github.com/alceil/justpasteit/blob/master/LICENSE" target="blank">
-<img src="https://img.shields.io/github/license/saviomartin/gradientking?style=flat-square" alt="gradientking licence" />
+<img src="https://img.shields.io/github/license/saviomartin/gradientking?style=flat-square" alt="JustPasteIt licence" />
 </a>
 <a href="https://github.com/alceil/justpasteit/fork" target="blank">
-<img src="https://img.shields.io/github/forks/saviomartin/gradientking?style=flat-square" alt="gradientking forks"/>
+<img src="https://img.shields.io/github/forks/alceil/justpasteit?style=flat-square" alt="Justpasteit forks"/>
 </a>
 <a href="https://github.com/alceil/justpasteit/stargazers" target="blank">
-<img src="https://img.shields.io/github/stars/saviomartin/gradientking?style=flat-square" alt="gradientking stars"/>
+<img src="https://img.shields.io/github/stars/alceil/justpasteit?style=flat-square" alt="Justpasteit stars"/>
 </a>
 <a href="https://github.com/alceil/justpasteit/issues" target="blank">
-<img src="https://img.shields.io/github/issues/saviomartin/gradientking?style=flat-square" alt="gradientking issues"/>
+<img src="https://img.shields.io/github/issues/alceil/justpasteit?style=flat-square" alt="Justpasteit issues"/>
 </a>
 <a href="https://github.com/alceil/justpasteit/pulls" target="blank">
-<img src="https://img.shields.io/github/issues-pr/saviomartin/gradientking?style=flat-square" alt="gradientking pull-requests"/>
+<img src="https://img.shields.io/github/issues-pr/alceil/justpasteit?style=flat-square" alt="Justpasteit pull-requests"/>
 </a>
 <a href="https://twitter.com/intent/tweet?text=Check%20out%20gradientking.now.sh%20by%20@SavioMartin7%E2%9A%A1%EF%B8%8F%0D%0A%0ANever%20Again%20run%20out%20of%20Gradients!%20%F0%9F%8E%A8%20Give%20it%20a%20try!%20You%27ll%20love%20it!%20%F0%9F%94%A5%0D%0A%0A%23DEVCommunity%20%23100DaysOfCode%20%23javascript"><img src="https://img.shields.io/twitter/url?label=Share%20on%20Twitter&style=social&url=https%3A%2F%2Fgithub.com%2Fsaviomartin%2Fgradientking"></a>
 
@@ -34,7 +34,7 @@
 
 ### Wanna share text/code with your friend online?
 
-JustPasteIt is an open source alternative of pastebin to share code/text with your friends online.All you have to do is paste your code in justpasteit and then share the link you get with your friends.How cool is that🙌
+Justpasteit is an open source alternative of pastebin to share code/text with your friends online.All you have to do is paste your code in justpasteit and then share the link you get with your friends.How cool is that🙌
 
 
 ## 🚀 Demo
@@ -43,7 +43,7 @@ JustPasteIt is an open source alternative of pastebin to share code/text with yo
 <img src="https://user-images.githubusercontent.com/47685349/134796533-82688a00-52d8-43da-ae8c-7b57dcf7b6bb.png" />
 </a>
 
-Try the tool: [JustPasteIt](https://justpasteit.herokuapp.com/)
+Try the tool: [Justpasteit](https://justpasteit.herokuapp.com/)
 
 ## 🧐 Features
 
