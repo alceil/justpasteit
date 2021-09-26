@@ -1,10 +1,6 @@
-<p align="center">
-  <a href="https://gradient-king.now.sh/">
-    <img alt="Lofi Club" src="public/assets/logo.gif" width="150" height="150" />
-  </a>
-</p>
-<h2 align="center">Gradient King</h1>
-<h4 align="center">Never again run out of Gradients✨️</h4>
+
+<h2 align="center">JustPasteIt</h1>
+<h4 align="center">An open source Pastebin alternative to share text/code with your friends ✨️</h4>
 
 <p align="center">
 <a href="https://github.com/saviomartin/gradientking/blob/master/LICENSE" target="blank">
@@ -36,11 +32,10 @@
     <a href="https://github.com/saviomartin/gradientking/issues/new/choose">Request Feature</a>
 </p>
 
-### Fed up with searching gradients for your app?
+### Wanna share text/code with your friend online?
 
-Gradient king can help you. We provide a huge collection of gradients and you could easily choose one. Besides that, we also provides a gradient generator where you could upload your image and grad the gradients from it. How cool is that 🙌
+JustPasteIt is an open source alternative of pastebin to share code/text with your friends online.All you have to do is paste your code in justpasteit and then share the link you get with your friends.How cool is that🙌
 
-[Read blog to understand better 📖](https://savio.xyz/introducing-gradient-king-never-again-run-out-of-gradients)
 
 ## 🚀 Demo
 
@@ -85,7 +80,7 @@ git clone https://github.com/saviomartin/gradientking.git
 2. Change the working directory
 
 ```bash
-cd gradientking
+cd justpasteit
 ```
 
 3. Install dependencies
