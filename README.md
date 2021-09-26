@@ -22,7 +22,7 @@
 
 </p>
 
-<p align="center"><img src="public/assets/app.gif" alt="gradientking gif" /></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/47685349/134797714-f558367b-1f53-45e4-9158-7e8b7ec8434e.gif" alt="justpasteit gif" /></p>
 
 <p align="center">
     <a href="https://justpasteit.herokuapp.com/" target="blank">View Demo</a>
