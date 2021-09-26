@@ -32,7 +32,6 @@ const SharePage = () => {
 
  
   const notify = () =>{
-  
    copy(data);
     toast("Text Copied📋");
   }
