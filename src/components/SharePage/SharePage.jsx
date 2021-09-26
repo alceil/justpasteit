@@ -1,11 +1,10 @@
-import React, { useState,useEffect,useRef}from "react";
+import React, { useState,useEffect}from "react";
 import {useParams} from 'react-router-dom';
 import ShareButton from "../ShareButton/ShareButton";
 import CopyButton from "../CopyButton/CopyButton";
 import Modal from '../Modal/Modal'
 import axios from "axios";
 import copy from "copy-to-clipboard";
-import {CopyToClipboard} from 'react-copy-to-clipboard';
 import style from "./SharePage.module.css";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -29,7 +28,6 @@ const SharePage = () => {
     fetchData();
   }, []);
 
-
  
   const notify = () =>{
    copy(data);
@@ -46,8 +44,7 @@ const SharePage = () => {
 
     <div className={style.actions}>
     <ShareButton onSubmit={()=>setIsOpen(true)} />
-
-  <CopyButton  onSubmit={notify}/>
+    <CopyButton  onSubmit={notify}/>
 
 
 <ToastContainer
