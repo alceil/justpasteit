@@ -3,19 +3,19 @@
 <h4 align="center">An open source Pastebin alternative to share text/code with your friends ✨️</h4>
 
 <p align="center">
-<a href="https://github.com/saviomartin/gradientking/blob/master/LICENSE" target="blank">
+<a href="https://github.com/alceil/justpasteit/blob/master/LICENSE" target="blank">
 <img src="https://img.shields.io/github/license/saviomartin/gradientking?style=flat-square" alt="gradientking licence" />
 </a>
-<a href="https://github.com/saviomartin/gradientking/fork" target="blank">
+<a href="https://github.com/alceil/justpasteit/fork" target="blank">
 <img src="https://img.shields.io/github/forks/saviomartin/gradientking?style=flat-square" alt="gradientking forks"/>
 </a>
-<a href="https://github.com/saviomartin/gradientking/stargazers" target="blank">
+<a href="https://github.com/alceil/justpasteit/stargazers" target="blank">
 <img src="https://img.shields.io/github/stars/saviomartin/gradientking?style=flat-square" alt="gradientking stars"/>
 </a>
-<a href="https://github.com/saviomartin/gradientking/issues" target="blank">
+<a href="https://github.com/alceil/justpasteit/issues" target="blank">
 <img src="https://img.shields.io/github/issues/saviomartin/gradientking?style=flat-square" alt="gradientking issues"/>
 </a>
-<a href="https://github.com/saviomartin/gradientking/pulls" target="blank">
+<a href="https://github.com/alceil/justpasteit/pulls" target="blank">
 <img src="https://img.shields.io/github/issues-pr/saviomartin/gradientking?style=flat-square" alt="gradientking pull-requests"/>
 </a>
 <a href="https://twitter.com/intent/tweet?text=Check%20out%20gradientking.now.sh%20by%20@SavioMartin7%E2%9A%A1%EF%B8%8F%0D%0A%0ANever%20Again%20run%20out%20of%20Gradients!%20%F0%9F%8E%A8%20Give%20it%20a%20try!%20You%27ll%20love%20it!%20%F0%9F%94%A5%0D%0A%0A%23DEVCommunity%20%23100DaysOfCode%20%23javascript"><img src="https://img.shields.io/twitter/url?label=Share%20on%20Twitter&style=social&url=https%3A%2F%2Fgithub.com%2Fsaviomartin%2Fgradientking"></a>
