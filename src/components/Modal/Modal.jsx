@@ -27,7 +27,7 @@ const OVERLAY_STYLES = {
 export default function Modal({id, open, children, onClose }) {
   if (!open) return null;
   console.log(id);
-  var url = `https://alceil.github.io/justpasteit/${id}`;
+  var url = `https://justpasteit.herokuapp.com/${id}`;
   const notify = () => toast("Link Copied📋");
   return (
     <>
