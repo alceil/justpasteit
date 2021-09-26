@@ -25,11 +25,11 @@
 <p align="center"><img src="public/assets/app.gif" alt="gradientking gif" /></p>
 
 <p align="center">
-    <a href="https://gradient-king.now.sh/" target="blank">View Demo</a>
+    <a href="https://justpasteit.herokuapp.com/" target="blank">View Demo</a>
     ·
-    <a href="https://github.com/saviomartin/gradientking/issues/new/choose">Report Bug</a>
+    <a href="https://github.com/alceil/justpasteit/issues/new/choose">Report Bug</a>
     ·
-    <a href="https://github.com/saviomartin/gradientking/issues/new/choose">Request Feature</a>
+    <a href="https://github.com/alceil/justpasteit/issues/new/choose">Request Feature</a>
 </p>
 
 ### Wanna share text/code with your friend online?
