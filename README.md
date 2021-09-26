@@ -18,7 +18,7 @@
 <a href="https://github.com/alceil/justpasteit/pulls" target="blank">
 <img src="https://img.shields.io/github/issues-pr/alceil/justpasteit?style=flat-square" alt="Justpasteit pull-requests"/>
 </a>
-<a href="https://twitter.com/intent/tweet?text=Check%20out%20gradientking.now.sh%20by%20@SavioMartin7%E2%9A%A1%EF%B8%8F%0D%0A%0ANever%20Again%20run%20out%20of%20Gradients!%20%F0%9F%8E%A8%20Give%20it%20a%20try!%20You%27ll%20love%20it!%20%F0%9F%94%A5%0D%0A%0A%23DEVCommunity%20%23100DaysOfCode%20%23javascript"><img src="https://img.shields.io/twitter/url?label=Share%20on%20Twitter&style=social&url=https%3A%2F%2Fgithub.com%2Fsaviomartin%2Fgradientking"></a>
+<a href="https://twitter.com/intent/tweet?text=Check%20out%20justpasteit.herokuapp.com%20by%20@ashishthomas6%E2%9A%A1%EF%B8%8F%0D%0A%0AShare%20your%20code%20with%20your%20friends%20%F0%9F%99%8E%20in%20just%20few%20clicks%20Give%20it%20a%20try!%20You%27ll%20love%20it!%20%F0%9F%94%A5%0D%0A%0A%23DEVCommunity%20%23100DaysOfCode%20%23javascript"><img src="https://img.shields.io/twitter/url?label=Share%20on%20Twitter&style=social&url=https%3A%2F%2Fgithub.com%2Falceil%2Fjustpasteit"></a>
 
 </p>
 
