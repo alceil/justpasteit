@@ -4,6 +4,7 @@ import ShareButton from "../ShareButton/ShareButton";
 import CopyButton from "../CopyButton/CopyButton";
 import Modal from '../Modal/Modal'
 import axios from "axios";
+import copy from "copy-to-clipboard";
 import {CopyToClipboard} from 'react-copy-to-clipboard';
 import style from "./SharePage.module.css";
 import { ToastContainer, toast } from 'react-toastify';
@@ -15,7 +16,6 @@ const SharePage = () => {
   useEffect(() => {
     const fetchData = async () => {
       const result = await axios(
-        // `http://localhost:4000/add/${id}`,
         `https://justpasteitapi.herokuapp.com/add/${id}`
       );
 
@@ -31,7 +31,13 @@ const SharePage = () => {
 
 
  
-  const notify = () => toast("Text Copied📋");
+  const notify = () =>{
+  
+   copy(data);
+    toast("Text Copied📋");
+  }
+
+
   return (
     <div>
     <div className={style.textarea_exp}>
@@ -42,9 +48,7 @@ const SharePage = () => {
     <div className={style.actions}>
     <ShareButton onSubmit={()=>setIsOpen(true)} />
 
-  <CopyToClipboard text="hello world">
   <CopyButton  onSubmit={notify}/>
-</CopyToClipboard>
 
 
 <ToastContainer
