@@ -11,7 +11,6 @@ import 'react-toastify/dist/ReactToastify.css';
 const SharePage = () => {
   const {id} = useParams();
   const [isOpen, setIsOpen] = useState(false)
-  const [copied, setCopied] = useState(false)
   const [data, setData] = useState('');
   useEffect(() => {
     const fetchData = async () => {
@@ -43,10 +42,11 @@ const SharePage = () => {
     <div className={style.actions}>
     <ShareButton onSubmit={()=>setIsOpen(true)} />
 
-  <CopyToClipboard text={data}>
+  <CopyToClipboard text="hello world">
   <CopyButton  onSubmit={notify}/>
-
 </CopyToClipboard>
+
+
 <ToastContainer
 position="bottom-center"
 autoClose={1000}

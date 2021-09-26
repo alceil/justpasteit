@@ -25,7 +25,7 @@ const App = () => {
       .post("https://justpasteitapi.herokuapp.com/add", { content: shareText })
       .then((response) => {
         let id = response.data["_id"];
-        history.push("/"+id);
+        history.push("/justpasteit/"+id);
  
         console.log(id);
       })
