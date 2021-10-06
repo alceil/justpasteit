@@ -5,4 +5,18 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: var(--text-color);
+  background-color: var(--bg-color);
+
+}
+body.light-mode{
+  --bg-color: #fff;
+  --text-color: black;
+  --textarea-color: #fff
+}
+body.dark-mode{
+  --bg-color: #121212;
+  --text-color: #fff;
+  --textarea-color: #242424
+
 }
