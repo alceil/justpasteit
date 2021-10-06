@@ -11,6 +11,7 @@ import style from "./App.module.css";
 const App = () => {
   const history = useHistory();
   const [shareText, setShareText] = useState("");
+  const [created,setCreated]= useState(false)
   //   const [routeNav, setRouteNav] = useState(false);
 
   const handleInputChange = (inputValue) => {
@@ -18,6 +19,7 @@ const App = () => {
   };
 
   const onSubmit = (inputValue) => {
+    setCreated(true);
     console.log("pressed dude");
     console.log(shareText);
     //http://localhost:4000
