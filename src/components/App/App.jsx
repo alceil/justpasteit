@@ -5,8 +5,8 @@ import Typing from "../Typing/Typing";
 import axios from "axios";
 import { Route, Switch, useHistory, withRouter } from "react-router-dom";
 import SharePage from "../SharePage/SharePage";
-
 import style from "./App.module.css";
+import ToggleDarkMode from "../ToggleDarkMode/ToggleDarkMode";
 
 const App = () => {
   const history = useHistory();
@@ -41,6 +41,7 @@ const App = () => {
   return (
     <div>
       <Header headTitle="Justpasteit" />
+      <ToggleDarkMode/>
       <Switch>
         <Route exact path="/">
           <Typing handleInputChange={handleInputChange} onSubmit={onSubmit} />
@@ -50,9 +51,7 @@ const App = () => {
         </Route>
       </Switch>
       <div className={style.container}>
- 
       </div>
-    
     </div>
   );
 };
