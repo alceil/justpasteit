@@ -83,6 +83,12 @@ npm start
 
 🌟 You are all set!
 
+
+## 🍰 Contributing
+
+Pull Requests are always welcome! If you wish to contribute using Github, you can work on any features or create one on your own. After adding your code, send us a Pull Request.
+- Please read [`CONTRIBUTING`](CONTRIBUTING.md) for details on our [`CODE OF CONDUCT`](CODE_OF_CONDUCT.md), and the process for submitting pull requests to us.
+
 ## 💻 Built with
 
 - [React](https://reactjs.org/)
