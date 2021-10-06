@@ -7,6 +7,7 @@ import { Route, Switch, useHistory, withRouter } from "react-router-dom";
 import SharePage from "../SharePage/SharePage";
 import style from "./App.module.css";
 import ToggleDarkMode from "../ToggleDarkMode/ToggleDarkMode";
+import { ToastContainer, toast } from 'react-toastify';
 
 const App = () => {
   const history = useHistory();
@@ -23,6 +24,9 @@ const App = () => {
     console.log("pressed dude");
     console.log(shareText);
     //http://localhost:4000
+    if(shareText){
+
+    
     axios
       .post("https://justpasteitapi.herokuapp.com/add", { content: shareText })
       .then((response) => {
@@ -34,6 +38,11 @@ const App = () => {
       .catch((error) => {
         console.log(error);
       });
+    }else{
+      console.log("Empty Text");
+      toast("Error : Empty Text");
+
+    }
 
 
 
@@ -45,6 +54,17 @@ const App = () => {
       <Switch>
         <Route exact path="/">
           <Typing handleInputChange={handleInputChange} onSubmit={onSubmit} />
+          <ToastContainer
+          position="bottom-center"
+          autoClose={1000}
+          hideProgressBar={true}
+          newestOnTop={false}
+          closeOnClick
+          rtl={false}
+          pauseOnFocusLoss
+          draggable
+          pauseOnHover
+          />
         </Route>
         <Route exact path="/:id">
           <SharePage />
