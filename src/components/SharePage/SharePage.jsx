@@ -43,7 +43,7 @@ const SharePage = () => {
     </div>
 
     <div className={style.actions}>
-    <ShareButton onSubmit={()=>setIsOpen(true)} />
+    <ShareButton onSubmit={()=>setIsOpen(true)} created />
     <CopyButton  onSubmit={notify}/>
 
 
