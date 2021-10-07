@@ -12,7 +12,7 @@ const Typing = ({ handleInputChange,onSubmit }) => {
       ></textarea>
     </div>
 
-    <div data-aos="fade-up" className={style.share}>
+    <div className={style.share}>
     <ShareButton  onSubmit={onSubmit} />
 
     </div>
