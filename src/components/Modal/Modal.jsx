@@ -9,7 +9,7 @@ const MODAL_STYLES = {
   left: '50%',
   border:'50px',
   transform: 'translate(-50%, -50%)',
-  backgroundColor: '#FFF',
+  backgroundColor: 'var(--bg-color)',
   padding: '50px',
   zIndex: 1000
 }
