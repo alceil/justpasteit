@@ -3,7 +3,3 @@
     flex-direction: row;
     justify-content: space-evenly;    
 }
-
-body {
-    overflow: hidden;
-}
