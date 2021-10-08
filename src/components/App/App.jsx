@@ -12,7 +12,7 @@ import { ToastContainer, toast } from 'react-toastify';
 const App = () => {
   const history = useHistory();
   const [shareText, setShareText] = useState("");
-  const [created,setCreated]= useState(false)
+  const [created, setCreated] = useState(false)
   //   const [routeNav, setRouteNav] = useState(false);
 
   const handleInputChange = (inputValue) => {
@@ -24,32 +24,28 @@ const App = () => {
     console.log("pressed dude");
     console.log(shareText);
     //http://localhost:4000
-    if(shareText){
 
-    
-    axios
-      .post("https://justpasteitapi.herokuapp.com/add", { content: shareText })
-      .then((response) => {
-        let id = response.data["_id"];
-        history.push("/"+id);
- 
-        console.log(id);
-      })
-      .catch((error) => {
-        console.log(error);
-      });
-    }else{
+    if(shareText) {
+      axios
+        .post("https://justpasteitapi.herokuapp.com/add", { content: shareText })
+        .then((response) => {
+          let id = response.data["_id"];
+          history.push("/" + id);
+
+          console.log(id);
+        })
+        .catch((error) => {
+          console.log(error);
+        });
+    } else {
       console.log("Empty Text");
       toast("Error : Empty Text");
-
     }
+  }
 
-
-
-  };
   return (
     <div>
-      <Header headTitle="Justpasteit" />
+      <Header headTitle="Justpasteit"/>
       <ToggleDarkMode/>
       <Switch>
         <Route exact path="/">
