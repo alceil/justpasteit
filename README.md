@@ -111,6 +111,17 @@ Im gonna add some pretty cool features soon as this is my first react project an
 ## 🛡️ License
 
 This project is licensed under the MIT License - see the [`LICENSE`](LICENSE) file for details.
+## 🦄 Deploy
+
+<a href="https://vercel.com/new/project?template=https://github.com/alceil/justpasteit">
+<img src="https://vercel.com/button" height="37.5px" />
+</a>
+<a href="https://app.netlify.com/start/deploy?repository=https://github.com/alceil/justpasteit">
+<img src="https://www.netlify.com/img/deploy/button.svg" height="37.5px" />
+</a>
+<a href="https://cloud.digitalocean.com/apps/new?repo=https://github.com/alceil/justpasteit">
+<img src="https://camo.githubusercontent.com/df21703b4229f8d44f76c2d56073657a4ab450ca4566ba5d24d05bf528c298f8/68747470733a2f2f7777772e6465706c6f79746f646f2e636f6d2f646f2d62746e2d626c75652e737667" height="37.5px" />
+</a>
 
 ## 🙏 Support
 
