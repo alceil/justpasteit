@@ -96,6 +96,8 @@ Pull Requests are always welcome! If you wish to contribute using Github, you ca
 - [react-router-dom](https://reactrouter.com/web/guides/quick-start): for routing
 - [react-toastify](https://www.npmjs.com/package/react-toastify): for react toasts
 - [copy-to-clipboard](https://www.npmjs.com/package/copy-to-clipboard): to copy texts to clipboard
+- [QuillJS for React](https://quilljs.com/): as default HTML text editor
+- [JS XSS](https://github.com/leizongmin/js-xss): to copy texts to clipboard
 
 ## 🌈 What's next
 
@@ -105,7 +107,7 @@ Im gonna add some pretty cool features soon as this is my first react project an
 - Amazing buttons
 - Some dope animations
 - Better aesthetics
-
+- Better texter editor
 ## 🛡️ License
 
 This project is licensed under the MIT License - see the [`LICENSE`](LICENSE) file for details.
