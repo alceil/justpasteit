@@ -1,22 +1,33 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
+
 import ShareButton from "../ShareButton/ShareButton";
-import CopyButton from "../CopyButton/CopyButton";
 import style from "./Typing.module.css";
-const Typing = ({ handleInputChange,onSubmit }) => {
+import ReactQuill from 'react-quill';
+import 'react-quill/dist/quill.snow.css';
+
+const Typing = ({ handleInputChange, onSubmit }) => {
+  const [value, setValue] = useState('Start typing here!');
+
+  useEffect(() => { // Called on value change
+    handleInputChange(value);
+  }, [handleInputChange, value]);
+
   return (
     <div>
-    <div data-aos="fade-up"  >
-      
-      <textarea
-        onChange={(e) => handleInputChange(e.target.value)}
-      ></textarea>
-    </div>
+      <div data-aos="fade-up">
+        {/*
+            <textarea
+              onChange={(e) => handleInputChange(e.target.value)}
+            />
+        */}
+        <div className={style.editor}>
+          <ReactQuill className={style.textarea} theme="snow" value={value} onChange={setValue}/>
+        </div>
 
-    <div data-aos="fade-up" className={style.share}>
-    <ShareButton  onSubmit={onSubmit} />
-
-    </div>
-
+        <div className={style.share}>
+          <ShareButton  onSubmit={onSubmit} />
+        </div>
+      </div>
     </div>
   );
 };
