@@ -5,17 +5,14 @@ import style from "./Typing.module.css";
 const Typing = ({ handleInputChange,onSubmit }) => {
   return (
     <div>
-    <div data-aos="fade-up"  >
-      
-      <textarea
-        onChange={(e) => handleInputChange(e.target.value)}
-      ></textarea>
-    </div>
-
-    <div data-aos="fade-up" className={style.share}>
-    <ShareButton  onSubmit={onSubmit} />
-
-    </div>
+      <div data-aos="fade-up">
+        <textarea
+          onChange={(e) => handleInputChange(e.target.value)}
+        />
+        <div className={style.share}>
+          <ShareButton onSubmit={onSubmit}/>
+        </div>
+      </div>
 
     </div>
   );
