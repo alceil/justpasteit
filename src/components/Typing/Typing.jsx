@@ -16,30 +16,23 @@ const Typing = ({ handleInputChange, onSubmit }) => {
     
   <div>
       <div data-aos="fade-up">
-<<<<<<< HEAD
         <div className={style.editor}>
           <ReactQuill className={style.textarea} theme="snow" value={value} onChange={setValue}/>
         </div>
 
         <div className={style.share}>
           <ShareButton  onSubmit={onSubmit} />
-=======
 
         <textarea
           onChange={(e) => handleInputChange(e.target.value)} />
 
         <div className={style.share}>
             <ShareButton onSubmit={onSubmit} />
->>>>>>> 3737c2ec6c23c49da0f89276b1af70962710a73c
         </div>
 
       </div>
-<<<<<<< HEAD
     </div>
-=======
   </div>
-
->>>>>>> 3737c2ec6c23c49da0f89276b1af70962710a73c
   );
 };
 
