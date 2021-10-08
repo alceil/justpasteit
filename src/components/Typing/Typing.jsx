@@ -4,20 +4,17 @@ import CopyButton from "../CopyButton/CopyButton";
 import style from "./Typing.module.css";
 const Typing = ({ handleInputChange,onSubmit }) => {
   return (
-    <div>
-    <div data-aos="fade-up"  >
-      
-      <textarea
-        onChange={(e) => handleInputChange(e.target.value)}
-      ></textarea>
-    </div>
+  <div>
+      <div data-aos="fade-up">
 
-    <div className={style.share}>
-    <ShareButton  onSubmit={onSubmit} />
+        <textarea
+          onChange={(e) => handleInputChange(e.target.value)} />
+      </div>
 
-    </div>
-
-    </div>
+      <div className={style.share}>
+          <ShareButton onSubmit={onSubmit} />
+      </div>
+  </div>
   );
 };
 
