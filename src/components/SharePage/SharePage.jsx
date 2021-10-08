@@ -7,22 +7,23 @@ import axios from "axios";
 import copy from "copy-to-clipboard";
 import style from "./SharePage.module.css";
 import { ToastContainer, toast } from 'react-toastify';
+import xss from 'xss';
 import 'react-toastify/dist/ReactToastify.css';
+
 const SharePage = () => {
   const {id} = useParams();
   const [isOpen, setIsOpen] = useState(false)
   const [data, setData] = useState('');
+
   useEffect(() => {
     const fetchData = async () => {
       const result = await axios(
         `https://justpasteitapi.herokuapp.com/add/${id}`
       );
 
-
-      
- console.log(result.data['content']);
-      setData(result.data['content']);
-      console.log(data);
+      let text = xss(result.data['content']);
+      setData(text);
+      console.log(text); // Debug log
     };
  
     fetchData();
@@ -30,7 +31,7 @@ const SharePage = () => {
 
  
   const notify = () =>{
-   copy(data);
+    copy(data);
     toast("Text Copied📋");
   }
 
@@ -38,8 +39,7 @@ const SharePage = () => {
   return (
     <div>
     <div className={style.textarea_exp}>
-      <h3 
-      >{data}</h3>
+      <p dangerouslySetInnerHTML={{__html: data}}></p> {/*Data was sanitized with the XSS library*/}
     </div>
 
     <div className={style.actions}>

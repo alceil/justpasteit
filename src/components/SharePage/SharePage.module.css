@@ -8,14 +8,15 @@
 
 
 
-.textarea_exp{
+.textarea_exp {
   white-space: pre-wrap;
   overflow-y: auto;
   width: 80%;
   margin: 10px auto;
-  height: 75vh;
-  border:  "30px solid green";
+  height: 400px;
+  border: 1px solid;
   border-style: solid;
+  padding: 10px;
 }
 
 

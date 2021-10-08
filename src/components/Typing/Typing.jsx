@@ -15,11 +15,6 @@ const Typing = ({ handleInputChange, onSubmit }) => {
   return (
     <div>
       <div data-aos="fade-up">
-        {/*
-            <textarea
-              onChange={(e) => handleInputChange(e.target.value)}
-            />
-        */}
         <div className={style.editor}>
           <ReactQuill className={style.textarea} theme="snow" value={value} onChange={setValue}/>
         </div>

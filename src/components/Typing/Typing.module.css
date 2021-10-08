@@ -5,23 +5,6 @@
   justify-content: center;
 }
 
-textarea {
-  /* box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); */
-  /*display: flex;
-  box-shadow:  0 1px 4px rgb(128, 128, 128);
-  color: var(--text-color);
-  background-color: var(--textarea-color);
-  flex-direction: row;
-  border: none;
-  resize: none;
-  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-  justify-content: center;
-  height: 400px;
-  width: 80%;
-  outline: none;
-  margin: 10px auto;*/
-}
-
 .textarea {
   height: 360px; /* Removed toolbar height */
   width: 100%;
@@ -34,6 +17,6 @@ textarea {
   margin: 10px auto;
 }
 
-textarea:hover{
+.editor:hover{
   box-shadow: 0 1px 7px rgb(128, 128, 128);
 }
