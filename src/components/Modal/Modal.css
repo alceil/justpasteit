@@ -1,65 +1,63 @@
-
-
-.modalbutton{
+.modalbutton {
   display: flex;
   justify-content: center;
-}  
-.textarea_exp{
+}
+.textarea_exp {
   width: 100%;
   height: 5vh;
-  box-shadow:0 2px 5px;
+  box-shadow: 0 2px 5px;
   border-radius: 10px;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
-
-.link{
-  padding: 2rem;
+.link {
+  padding: 4px;
+  overflow: hidden;
 }
-.end-buttons{
+.end-buttons {
   position: relative;
   margin: 12px;
   border: none;
   border-radius: 4px;
   min-width: 64px;
-  padding: 2px 16px;
+  padding: 2px 1px;
   vertical-align: middle;
   text-align: center;
   color: #fff;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12) 0 1px 2px rgba(0,0,0,0.26);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12) 0 1px 2px rgba(0, 0, 0, 0.26);
   font-size: 18px;
   font-weight: 500;
   font-family: Poppins;
   line-height: 36px;
   cursor: pointer;
-  transition:background-color 0.2s;
-
+  transition: background-color 0.2s;
 }
 
-.start-again-btn{
+.start-again-btn {
   background-color: #3e4248;
 }
 .start-again-btn:hover,
-.start-again-btn:focus{
+.start-again-btn:focus {
   background: #808080;
 }
 
-.share-btn{
+.share-btn {
   background-color: #3b5998;
 }
 .share-btn:hover,
-.share-btn:focus{
+.share-btn:focus {
   background: #5d7dc4;
 }
 
-.tweet-btn{
-  background: #1da1F2;
+.tweet-btn {
+  background: #1da1f2;
 }
-.close-btn{
+.close-btn {
   background: red;
 }
-.close{
+.close {
   float: right;
   color: white;
   background-color: red;
@@ -68,17 +66,48 @@
   width: 15px;
 }
 
-
 .close-btn:hover,
-.close-btn:focus{
+.close-btn:focus {
   background: lightcoral;
 }
 .tweet-btn:hover,
-.tweet-btn:focus{
+.tweet-btn:focus {
   background: #8faef3;
 }
 
-
-.copy-btn{
+.copy-btn {
   background: green;
+}
+
+.copy-btn:hover,
+.copy-btn:focus {
+  background: rgb(60, 161, 60);
+}
+
+.h1 {
+  font-size: 14px;
+}
+
+@media (min-width: 576px) {
+  .h1 {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 768px) {
+  .h1 {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 992px) {
+  .h1 {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .h1 {
+    font-size: 24px;
+  }
 }
