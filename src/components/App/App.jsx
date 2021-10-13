@@ -22,10 +22,14 @@ const App = () => {
   const onSubmit = (inputValue) => {
     setCreated(true);
     console.log("pressed dude");
-    console.log(shareText);
+    // console.log(shareText);
     //http://localhost:4000
-
-    if(shareText) {
+    console.log("Text:"+shareText);
+    if(shareText == "<p><br></p>") {
+      console.log("Empty Text");
+      toast("Error : Empty Text");
+      
+    } else {
       axios
         .post("https://justpasteitapi.herokuapp.com/add", { content: shareText })
         .then((response) => {
@@ -37,9 +41,6 @@ const App = () => {
         .catch((error) => {
           console.log(error);
         });
-    } else {
-      console.log("Empty Text");
-      toast("Error : Empty Text");
     }
   }
 
