@@ -6,7 +6,7 @@ import ReactQuill from 'react-quill';
 import 'react-quill/dist/quill.snow.css';
 
 const Typing = ({ handleInputChange, onSubmit }) => {
-  const [value, setValue] = useState('Start typing here!');
+  const [value, setValue] = useState();
 
   useEffect(() => { // Called on value change
     handleInputChange(value);
@@ -16,7 +16,7 @@ const Typing = ({ handleInputChange, onSubmit }) => {
   <div>
       <div data-aos="fade-up">
         <div className={style.editor}>
-          <ReactQuill className={style.textarea} theme="snow" value={value} onChange={setValue}/>
+          <ReactQuill className={style.textarea} theme="snow" value={value} onChange={setValue} placeholder="Start typing here!" />
         </div>
         <div className={style.share}>
           <ShareButton  onSubmit={onSubmit} />
