@@ -46,7 +46,7 @@ const App = () => {
 
   return (
     <div>
-      <Header headTitle="Justpasteit"/>
+      <Header headTitle="Just Pasteit"/>
       <ToggleDarkMode/>
       <Switch>
         <Route exact path="/">
