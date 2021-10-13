@@ -20,3 +20,6 @@ body.dark-mode{
   --textarea-color: #242424
 
 }
+.ql-editor.ql-blank::before {
+  color: gray !important;
+}
