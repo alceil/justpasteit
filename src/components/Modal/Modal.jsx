@@ -3,6 +3,7 @@ import "./Modal.css";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { CopyToClipboard } from "react-copy-to-clipboard";
+import Button from '../Button/Button';
 const MODAL_STYLES = {
   position: "fixed",
   // display: 'flex',
@@ -54,14 +55,17 @@ export default function Modal({ id, open, children, onClose }) {
         </div>
 
         <div className="modalbutton">
-          <button className="end-buttons close-btn" onClick={onClose}>
-            Close
-          </button>
+          <Button 
+            name="Close"
+            onClick={onClose}
+            color="red"
+            />
 
           <CopyToClipboard text={url}>
-            <button onClick={notify} className="end-buttons copy-btn">
-              Copy
-            </button>
+            <Button
+              name="Copy"
+              onClick={notify}
+              />
           </CopyToClipboard>
 
           {/* <button onClick={()=>{
