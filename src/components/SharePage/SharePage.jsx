@@ -32,7 +32,7 @@ const SharePage = () => {
  
   const notify = () =>{
     copy(data);
-    toast("Text Copied📋");
+    toast("Text Copied Successfully 📋");
   }
 
 
@@ -48,6 +48,10 @@ const SharePage = () => {
 
 
 <ToastContainer
+toastStyle={{
+  color: 'black',
+  paddingLeft:'3rem'
+}}
 position="bottom-center"
 autoClose={1000}
 hideProgressBar={true}
