@@ -3,7 +3,7 @@ import style from "./Button.module.css"
 const Button = ({name, onClick, color="green"}) => {
     return (
             <button 
-                className={style.copy} 
+                className={style.button} 
                 onClick={onClick}
                 style={{backgroundColor: color}}
             >

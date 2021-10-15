@@ -1,18 +1,18 @@
-.copy{
+.button{
     background-color: green;
-    margin: 4px 2px;
+    margin: 8px;
     color: white;
     padding: 10px;
     border: none;
     font-weight: bold;
-    border-radius: 20px;
+    border-radius: 8px;
     font-family:  Poppins,'Courier New', Courier, monospace;
-    box-shadow: 0 1px 7px rgb(128, 128, 128);
     width: 80px;
     font-size: large;
+
 }
 
-.copy:hover{
+.button:hover{
     cursor: pointer;
     transform: scale(1.1)
 }
