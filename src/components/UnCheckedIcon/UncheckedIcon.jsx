@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import style from "./UncheckedIcon.module.css";
 const UnCheckedIcon = () => {
     return (
         <div>
