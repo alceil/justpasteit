@@ -9,11 +9,29 @@ import style from "./SharePage.module.css";
 import { ToastContainer, toast } from 'react-toastify';
 import xss from 'xss';
 import 'react-toastify/dist/ReactToastify.css';
+import hljs from 'highlight.js';
+import 'highlight.js/styles/default.css';
 
 const SharePage = () => {
   const {id} = useParams();
   const [isOpen, setIsOpen] = useState(false)
   const [data, setData] = useState('');
+  
+  const options = {
+    whiteList: {
+      pre: ["class"],
+      span: ["class"],
+      p: [],
+      br: [],
+      strong: [],
+      em: [],
+      u: [],
+      ul: [],
+      li: [],
+      ol: [],
+      a: ["href", "rel", "target"]
+    }
+  };
 
   useEffect(() => {
     const fetchData = async () => {
@@ -21,13 +39,13 @@ const SharePage = () => {
         `https://justpasteitapi.herokuapp.com/add/${id}`
       );
 
-      let text = xss(result.data['content']);
+      let text = xss(result.data['content'], options);
       setData(text);
-      console.log(text); // Debug log
+      console.log(result.data['content']); // Debug log
     };
  
     fetchData();
-  }, [data, id]);
+  }, [data, id, options]);
 
  
   const notify = () =>{
