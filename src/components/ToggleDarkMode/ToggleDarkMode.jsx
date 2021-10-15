@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from 'react'
 import style from './ToggleDarkMode.module.css'
 import Toggle from 'react-toggle'
 import "react-toggle/style.css"
