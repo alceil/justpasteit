@@ -9,10 +9,16 @@ import style from "./App.module.css";
 import ToggleDarkMode from "../ToggleDarkMode/ToggleDarkMode";
 import { ToastContainer, toast } from 'react-toastify';
 
+// Dark mode
+import useDarkMode from 'use-dark-mode';
+
 const App = () => {
   const history = useHistory();
   const [shareText, setShareText] = useState("");
-  const [created, setCreated] = useState(false)
+  const [created, setCreated] = useState(false);
+
+  const darkMode = useDarkMode(false);
+
   //   const [routeNav, setRouteNav] = useState(false);
 
   const handleInputChange = (inputValue) => {
@@ -47,7 +53,7 @@ const App = () => {
   return (
     <div>
       <Header headTitle="Just Pasteit"/>
-      <ToggleDarkMode/>
+      <ToggleDarkMode darkMode={darkMode}/>
       <Switch>
         <Route exact path="/">
           <Typing handleInputChange={handleInputChange} onSubmit={onSubmit} />

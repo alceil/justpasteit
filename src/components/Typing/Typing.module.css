@@ -6,7 +6,7 @@
 }
 
 .textarea {
-  height: 360px; /* Removed toolbar height */
+  height: 90%;
   width: 100%;
 }
 
@@ -17,6 +17,6 @@
   margin: 10px auto;
 }
 
-.editor:hover{
+.editor:hover {
   box-shadow: 0 1px 7px rgb(128, 128, 128);
 }

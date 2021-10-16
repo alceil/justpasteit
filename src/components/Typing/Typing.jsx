@@ -22,7 +22,7 @@ const Typing = ({ handleInputChange, onSubmit }) => {
       <div data-aos="fade-up">
         <div className={style.editor}>
           
-          <ReactQuill options={{hljs: hljs}} modules={{
+          <ReactQuill modules={{
             syntax: true,
             toolbar: [['bold', 'italic', 'underline', 'blockquote'], [{ list: 'ordered' }, { list: 'bullet' }], ['link'], ['code-block']]
           }} className={style.textarea} theme="snow" value={value} onChange={setValue} placeholder="Start typing here!" />
