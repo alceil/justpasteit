@@ -4,6 +4,7 @@ import hljs from 'highlight.js';
 import ReactQuill from 'react-quill';
 import Button from "../Button/Button";
 import 'react-quill/dist/quill.snow.css';
+import 'highlight.js/styles/atom-one-light.css';
 
 const Typing = ({ handleInputChange, onSubmit }) => {
   const [value, setValue] = useState();

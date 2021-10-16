@@ -8,8 +8,8 @@ import style from "./SharePage.module.css";
 import { ToastContainer, toast } from 'react-toastify';
 import xss from 'xss';
 import 'react-toastify/dist/ReactToastify.css';
-
 import 'highlight.js/styles/atom-one-light.css';
+//import 'highlight.js/styles/atom-one-light.css';
 
 
 const SharePage = () => {
@@ -40,7 +40,7 @@ const SharePage = () => {
       );
 
       let text = xss(result.data['content'], options);
-      setData(text);
+      setData(result.data['content']);
       console.log(result.data['content']); // Debug log
     };
  

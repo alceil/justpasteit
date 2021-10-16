@@ -29,9 +29,6 @@ body.light-mode .ql-snow .ql-editor pre.ql-syntax {
 body.dark-mode .ql-snow .ql-editor pre.ql-syntax {
   background-color: #23241f;
 }
-body.dark-mode .ql-snow .ql-editor span.hljs-name {
-  color: #f0f0f0;
-}
 body.dark-mode .ql-snow .ql-editor span.hljs-attr {
   color: #ddd;
 }
