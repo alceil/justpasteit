@@ -1,10 +1,9 @@
 import React, {useState, useEffect} from "react";
-
 import style from "./Typing.module.css";
 import hljs from 'highlight.js';
 import ReactQuill from 'react-quill';
-import 'react-quill/dist/quill.snow.css';
 import Button from "../Button/Button";
+import 'react-quill/dist/quill.snow.css';
 
 const Typing = ({ handleInputChange, onSubmit }) => {
   const [value, setValue] = useState();

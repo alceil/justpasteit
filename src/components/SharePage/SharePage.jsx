@@ -8,8 +8,9 @@ import style from "./SharePage.module.css";
 import { ToastContainer, toast } from 'react-toastify';
 import xss from 'xss';
 import 'react-toastify/dist/ReactToastify.css';
-import hljs from 'highlight.js';
-import 'highlight.js/styles/default.css';
+
+import 'highlight.js/styles/atom-one-light.css';
+
 
 const SharePage = () => {
   const {id} = useParams();
@@ -44,7 +45,7 @@ const SharePage = () => {
     };
  
     fetchData();
-  }, [data, id, options]);
+  }, [data, id]);
 
  
   const notify = () =>{

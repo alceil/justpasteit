@@ -9,7 +9,7 @@ import style from "./App.module.css";
 import ToggleDarkMode from "../ToggleDarkMode/ToggleDarkMode";
 import { ToastContainer, toast } from 'react-toastify';
 
-// Dark mode
+// Dark mode custom
 import useDarkMode from 'use-dark-mode';
 
 const App = () => {
