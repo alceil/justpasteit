@@ -1,9 +1,9 @@
 import React, {useState, useEffect} from "react";
 
-import ShareButton from "../ShareButton/ShareButton";
 import style from "./Typing.module.css";
 import ReactQuill from 'react-quill';
 import 'react-quill/dist/quill.snow.css';
+import Button from "../Button/Button";
 
 const Typing = ({ handleInputChange, onSubmit }) => {
   const [value, setValue] = useState();
@@ -19,7 +19,7 @@ const Typing = ({ handleInputChange, onSubmit }) => {
           <ReactQuill className={style.textarea} theme="snow" value={value} onChange={setValue} placeholder="Start typing here!" />
         </div>
         <div className={style.share}>
-          <ShareButton  onSubmit={onSubmit} />
+          <Button name="Save" onClick={onSubmit} />
         </div>
       </div>
   </div>
