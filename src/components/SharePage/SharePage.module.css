@@ -14,7 +14,12 @@
   height: 400px;
   border: 1px solid;
   border-style: solid;
-  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 13px;
 }
 
 .textarea_left,

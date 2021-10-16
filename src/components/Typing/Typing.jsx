@@ -15,6 +15,7 @@ const Typing = ({ handleInputChange, onSubmit }) => {
 
   useEffect(() => { // Called on value change
     handleInputChange(value);
+    console.log("input debug: " + value);
   }, [handleInputChange, value]);
 
   return ( 
@@ -23,7 +24,9 @@ const Typing = ({ handleInputChange, onSubmit }) => {
         <div className={style.editor}>
           
           <ReactQuill modules={{
-            syntax: true,
+            syntax:{
+              setInterval: 10,
+            },
             toolbar: [['bold', 'italic', 'underline', 'blockquote'], [{ list: 'ordered' }, { list: 'bullet' }], ['link'], ['code-block']]
           }} className={style.textarea} theme="snow" value={value} onChange={setValue} placeholder="Start typing here!" />
         </div>

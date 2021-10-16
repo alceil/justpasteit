@@ -21,14 +21,21 @@ body.dark-mode {
 .ql-editor.ql-blank::before {
   color: gray !important;
 }
-body.light-mode .ql-snow .ql-editor pre.ql-syntax {
-  background-color: #f0f0f0;
-  color: #000;
+
+body.light-mode pre.ql-syntax {
+  background-color: #f0f0f0 !important;
+  color: #000 !important;
+  overflow: visible;
+  white-space: pre-wrap;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  padding: 5px 10px;
+  border-radius: 3px;
 }
 
-body.dark-mode .ql-snow .ql-editor pre.ql-syntax {
-  background-color: #23241f;
+body.dark-mode pre.ql-syntax {
+  background-color: #23241f !important;
 }
-body.dark-mode .ql-snow .ql-editor span.hljs-attr {
-  color: #ddd;
+body.dark-mode span.hljs-attr {
+  color: #ddd !important;
 }

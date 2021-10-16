@@ -9,8 +9,6 @@ import { ToastContainer, toast } from 'react-toastify';
 import xss from 'xss';
 import 'react-toastify/dist/ReactToastify.css';
 import 'highlight.js/styles/atom-one-light.css';
-//import 'highlight.js/styles/atom-one-light.css';
-
 
 const SharePage = () => {
   const {id} = useParams();
@@ -40,7 +38,7 @@ const SharePage = () => {
       );
 
       let text = xss(result.data['content'], options);
-      setData(result.data['content']);
+      setData(text);
       console.log(result.data['content']); // Debug log
     };
  
