@@ -5,6 +5,8 @@ import ReactQuill from 'react-quill';
 import Button from "../Button/Button";
 import 'react-quill/dist/quill.snow.css';
 import 'highlight.js/styles/atom-one-light.css';
+import copy from "copy-to-clipboard";
+import { toast } from "react-toastify";
 
 const Typing = ({ handleInputChange, onSubmit }) => {
   const [value, setValue] = useState();
@@ -17,6 +19,12 @@ const Typing = ({ handleInputChange, onSubmit }) => {
     handleInputChange(value);
     console.log("input debug: " + value);
   }, [handleInputChange, value]);
+
+  const copyClickHandler = () => {
+    //replace value with pure text from quill (without html tags)
+    copy(value);
+    toast.success("Text Copied to Clipboard");
+  }
 
   return ( 
   <div>
@@ -31,7 +39,8 @@ const Typing = ({ handleInputChange, onSubmit }) => {
           }} className={style.textarea} theme="snow" value={value} onChange={setValue} placeholder="Start typing here!" />
         </div>
         <div className={style.share}>
-          <Button name="Save" onClick={onSubmit} />
+          <Button name="Share" onClick={onSubmit} />
+          <Button name="Copy" onClick={copyClickHandler} />
         </div>
       </div>
   </div>

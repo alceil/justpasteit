@@ -8,6 +8,7 @@ import SharePage from "../SharePage/SharePage";
 import style from "./App.module.css";
 import ToggleDarkMode from "../ToggleDarkMode/ToggleDarkMode";
 import { ToastContainer, toast } from 'react-toastify';
+import copy from "copy-to-clipboard";
 
 // Dark mode custom
 import useDarkMode from 'use-dark-mode';
@@ -40,9 +41,9 @@ const App = () => {
         .post("https://justpasteitapi.herokuapp.com/add", { content: shareText })
         .then((response) => {
           let id = response.data["_id"];
-          history.push("/" + id);
-
-          console.log(id);
+          //history.push("/" + id);
+          copy(`https://justpasteit.herokuapp.com/${id}`);
+          toast.success('URL Copied to clipboard');
         })
         .catch((error) => {
           console.log(error);
