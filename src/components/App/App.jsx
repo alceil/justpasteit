@@ -27,7 +27,7 @@ const App = () => {
     console.log("Text:"+shareText);
     if(shareText == "<p><br></p>") {
       console.log("Empty Text");
-      toast("Error : Empty Text");
+      toast.error("Error : Empty Text");
       
     } else {
       axios
@@ -51,7 +51,7 @@ const App = () => {
       <Switch>
         <Route exact path="/">
           <Typing handleInputChange={handleInputChange} onSubmit={onSubmit} />
-          <ToastContainer
+          <ToastContainer 
           position="bottom-center"
           autoClose={1000}
           hideProgressBar={true}
