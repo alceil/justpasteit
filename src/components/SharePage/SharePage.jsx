@@ -1,7 +1,6 @@
 import React, { useState,useEffect}from "react";
 import {useParams} from 'react-router-dom';
-import ShareButton from "../ShareButton/ShareButton";
-import CopyButton from "../CopyButton/CopyButton";
+import Button from "../Button/Button";
 import Modal from '../Modal/Modal'
 import axios from "axios";
 import copy from "copy-to-clipboard";
@@ -61,8 +60,8 @@ const SharePage = () => {
     </div>
 
     <div className={style.actions}>
-    <ShareButton onSubmit={()=>setIsOpen(true)} created />
-    <CopyButton  onSubmit={notify}/>
+    <Button name="Share" onClick={() => setIsOpen(true)} />
+    <Button name="Copy" onClick={notify} />
 
 
 <ToastContainer

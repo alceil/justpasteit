@@ -1,5 +1,5 @@
-import React from 'react'
-import style from "./CheckedIcon.module.css"
+import React from 'react';
+import style from "./CheckedIcon.module.css";
 const CheckedIcon = () => {
     return (
         <div>
