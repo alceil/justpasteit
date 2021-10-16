@@ -8,6 +8,7 @@ import SharePage from "../SharePage/SharePage";
 import style from "./App.module.css";
 import ToggleDarkMode from "../ToggleDarkMode/ToggleDarkMode";
 import { ToastContainer, toast } from 'react-toastify';
+import copy from "copy-to-clipboard";
 
 const App = () => {
   const history = useHistory();
@@ -34,9 +35,9 @@ const App = () => {
         .post("https://justpasteitapi.herokuapp.com/add", { content: shareText })
         .then((response) => {
           let id = response.data["_id"];
-          history.push("/" + id);
-
-          console.log(id);
+          copy('https://justpasteit.herokuapp.com/' + id);
+          toast('URL Copied to clipboard 📋');
+          setTimeout(() => {history.push("/" + id); }, 1500);
         })
         .catch((error) => {
           console.log(error);

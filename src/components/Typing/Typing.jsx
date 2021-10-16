@@ -19,7 +19,7 @@ const Typing = ({ handleInputChange, onSubmit }) => {
           <ReactQuill className={style.textarea} theme="snow" value={value} onChange={setValue} placeholder="Start typing here!" />
         </div>
         <div className={style.share}>
-          <Button name="Save" onClick={onSubmit} />
+          <Button name="Share" onClick={onSubmit} />
         </div>
       </div>
   </div>
