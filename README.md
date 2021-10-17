@@ -1,4 +1,3 @@
-
 <h2 align="center">Justpasteit📋</h1>
 <h4 align="center">An open source Pastebin alternative to share text/code with your friends ✨️</h4>
 
@@ -35,7 +34,6 @@
 ### Wanna share text/code with your friend online?
 
 Justpasteit is an open source alternative of pastebin to share code/text with your friends online.All you have to do is paste your code in justpasteit and then share the link you get with your friends.How cool is that🙌
-
 
 ## 🚀 Demo
 
@@ -83,10 +81,10 @@ npm start
 
 🌟 You are all set!
 
-
 ## 🍰 Contributing
 
 Pull Requests are always welcome! If you wish to contribute using Github, you can work on any features or create one on your own. After adding your code, send us a Pull Request.
+
 - Please read [`CONTRIBUTING`](CONTRIBUTING.md) for details on our [`CODE OF CONDUCT`](CODE_OF_CONDUCT.md), and the process for submitting pull requests to us.
 
 ## 💻 Built with
@@ -98,6 +96,7 @@ Pull Requests are always welcome! If you wish to contribute using Github, you ca
 - [copy-to-clipboard](https://www.npmjs.com/package/copy-to-clipboard): to copy texts to clipboard
 - [QuillJS for React](https://quilljs.com/): as default HTML text editor
 - [JS XSS](https://github.com/leizongmin/js-xss): HTML Sanitizer (XSS Protection)
+- [highlight.js](https://github.com/highlightjs/highlight.js): Powerful highlight library for many languages
 
 ## 🌈 What's next
 
@@ -112,6 +111,7 @@ Im gonna add some pretty cool features soon as this is my first react project an
 ## 🛡️ License
 
 This project is licensed under the MIT License - see the [`LICENSE`](LICENSE) file for details.
+
 ## 🦄 Deploy
 
 <a href="https://vercel.com/new/project?template=https://github.com/alceil/justpasteit">
@@ -132,4 +132,3 @@ This project needs a 🌟 from you
 <p align="center">
 Developed with ❤️ in India 🇮🇳 
 </p>
-
