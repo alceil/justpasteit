@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^12.8.3",
     "axios": "^0.21.1",
     "copy-to-clipboard": "^3.3.1",
+    "grapheme-splitter": "^1.0.4",
     "highlight.js": "^11.2.0",
     "i": "^0.3.7",
     "npm": "^8.1.0",
@@ -20,7 +21,7 @@
     "react-scripts": "4.0.3",
     "react-toastify": "^7.0.4",
     "react-toggle": "^4.1.2",
-    "typewriter-effect": "^2.18.0",
+    "typewriter-effect": "^2.18.2",
     "use-dark-mode": "^2.3.1",
     "web-vitals": "^1.1.1",
     "xss": "^1.0.9"
