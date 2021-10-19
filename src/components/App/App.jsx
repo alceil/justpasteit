@@ -31,7 +31,7 @@ const App = () => {
     // console.log(shareText);
     //http://localhost:4000
     console.log("Text:"+shareText);
-    if(shareText === "<p><br></p>") {
+    if(shareText === "<p><br></p>" || !shareText ) {
       console.log("Empty Text");
       toast.error("Error : Empty Text");
       
