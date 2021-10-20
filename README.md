@@ -33,7 +33,7 @@
 
 ### Wanna share text/code with your friend online?
 
-Justpasteit is an open source alternative of pastebin to share code/text with your friends online.All you have to do is paste your code in justpasteit and then share the link you get with your friends.How cool is that🙌
+JustPasteIt is an open source alternative of pastebin to share code/text with your friends online. All you have to do is paste your code in justpasteit and then share the link you get with your friends. How cool is that?! 🙌
 
 ## 🚀 Demo
 
@@ -41,11 +41,11 @@ Justpasteit is an open source alternative of pastebin to share code/text with yo
 <img src="https://user-images.githubusercontent.com/47685349/134796533-82688a00-52d8-43da-ae8c-7b57dcf7b6bb.png" />
 </a>
 
-Try the tool: [Justpasteit](https://justpasteit.herokuapp.com/)
+Try the tool: [JustPasteIt](https://justpasteit.netlify.app/)
 
 ## 🧐 Features
 
-Provides you to share text or code with your friends in just few clicks✨️.
+Provides you to share text or code with your friends in just few clicks ✨️.
 
 - **Share code with your friends**
 - **Minimal UI, Lightning Fast**
@@ -79,7 +79,7 @@ npm install
 npm start
 ```
 
-🌟 You are all set!
+🌟 You are all set! 🌟
 
 ## 🍰 Contributing
 
@@ -98,9 +98,9 @@ Pull Requests are always welcome! If you wish to contribute using Github, you ca
 - [JS XSS](https://github.com/leizongmin/js-xss): HTML Sanitizer (XSS Protection)
 - [highlight.js](https://github.com/highlightjs/highlight.js): Powerful highlight library for many languages
 
-## 🌈 What's next
+## 🌈 What's next?
 
-Im gonna add some pretty cool features soon as this is my first react project and I will add the following features in the coming weeks.
+I'm gonna add some pretty cool features as soon as I can in the coming weeks. This is my first react project and I will add the following features:
 
 - Better ui
 - Amazing buttons
