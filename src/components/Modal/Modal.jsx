@@ -28,10 +28,15 @@ const OVERLAY_STYLES = {
   zIndex: 1000,
 };
 
+const getUrl = (id) => {
+  return `${window.location.protocol}//${window.location.host}/${id}`;
+
+}
+
 export default function Modal({ id, open, children, onClose }) {
   if (!open) return null;
   console.log(id);
-  var url = `https://justpasteit.herokuapp.com/${id}`;
+  var url = getUrl(id);
   const notify = () => toast("Link Copied📋");
   return (
     <>
