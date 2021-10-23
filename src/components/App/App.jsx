@@ -58,6 +58,10 @@ const App = () => {
         <Route exact path="/">
           <Typing handleInputChange={handleInputChange} onSubmit={onSubmit} />
           <ToastContainer 
+          toastStyle={{
+           
+            paddingLeft:'5rem'
+          }}
           position="bottom-center"
           autoClose={1000}
           hideProgressBar={true}

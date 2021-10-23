@@ -41,6 +41,10 @@ export default function Modal({ id, open, children, onClose }) {
   return (
     <>
       <ToastContainer
+      toastStyle={{
+        color: 'black',
+        paddingLeft:'6rem'
+      }}
         position="bottom-center"
         autoClose={1000}
         hideProgressBar={true}
