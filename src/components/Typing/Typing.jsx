@@ -1,13 +1,18 @@
-import React, {useState, useEffect} from "react";
+import React, {useState, useEffect, useMemo} from "react";
 import style from "./Typing.module.css";
 import hljs from 'highlight.js';
 import ReactQuill from 'react-quill';
 import Button from "../Button/Button";
 import 'react-quill/dist/quill.snow.css';
 import 'highlight.js/styles/atom-one-light.css';
+import debounce from 'lodash.debounce';
 
 const Typing = ({ handleInputChange, onSubmit }) => {
   const [value, setValue] = useState();
+
+  const debouncedOnSubmit = useMemo(() => {
+    return debounce(onSubmit, 300);
+  }, [onSubmit]);
 
   useEffect(() => { 
     hljs.configure({useBR: false});
@@ -31,7 +36,7 @@ const Typing = ({ handleInputChange, onSubmit }) => {
           }} className={style.textarea} theme="snow" value={value} onChange={setValue} placeholder="Start typing here!" />
         </div>
         <div className={style.share}>
-          <Button name="Save" onClick={onSubmit} />
+          <Button name="Save" onClick={debouncedOnSubmit} />
         </div>
       </div>
   </div>
