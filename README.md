@@ -124,16 +124,14 @@ This project is licensed under the MIT License - see the [`LICENSE`](LICENSE) fi
 <img src="https://camo.githubusercontent.com/df21703b4229f8d44f76c2d56073657a4ab450ca4566ba5d24d05bf528c298f8/68747470733a2f2f7777772e6465706c6f79746f646f2e636f6d2f646f2d62746e2d626c75652e737667" height="37.5px" />
 </a>
 
-## **Contributors**
+## **💪 Thanks to all Contributors**
 
 This project exists thanks to all the people who contribute — [contribute](CONTRIBUTING.md).
 
 <div align="center">
-  <a href="https://github.com/alceil/justpasteit/graphs/contributors">
-    <img src="https://opencollective.com/justpasteit/contributors.svg?width=840&button=false"
-      alt="Contributors"
-      width="100%" />
-  </a>
+<a href="https://github.com/alceil/justpasteit/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=alceil/justpasteit" />
+</a>
 </div>
 
 ## 🙏 Support
