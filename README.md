@@ -128,7 +128,7 @@ This project is licensed under the MIT License - see the [`LICENSE`](LICENSE) fi
 
 This project exists thanks to all the people who contribute — [contribute](CONTRIBUTING.md).
 
-<div align="center">
+<div align="left">
 <a href="https://github.com/alceil/justpasteit/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=alceil/justpasteit" />
 </a>
